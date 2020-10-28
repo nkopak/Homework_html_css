@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+nav a:hover{
+    color: rgba(0,0,0,0.7);
+}
+
+#red, #red2{
+    color: rgb(144, 0, 34);
+}
+
+#red a:hover{
+    color: rgba(144, 0, 34, 0.7);
+}
+
+.nav-upper,
+.nav-lower{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 8px 0;
+
+}
+
+.nav-item{
+    float: left;
+    margin: 0 6px;
+    font-size: 11px;
+    font-weight: 800;
+}
+
+.nav-lower-list .nav-item{
+    font-size: 14px;
+}
+
+.nav-upper-list,
+.nav-lower-list {
+    list-style: none;
+}
+
+.nav-lower{
+    border-bottom: 1px solid #d0d0d0;
+}
+.nav-lower-list{
+    font-size: 14px;
+}
+
+/*--------main header*/
+.main-header{
+    background-color: rgb(126, 0, 25);;
+    padding: 12px;
+    display: flex;
+    color: white;
+    height: 87px;
+}
+
+.logo-container{
+    margin: auto;
+    width: 300px;
+}
+
+.logo-container h3{
+    font-size: 11px;
+    text-align: center;
+}
+
+
+.line{
+    width: 35px;
+    height: 4px;
+    background-color: white;
+    margin: 4px;
+}
+
+.club-up{
+    height: 36px;
+    width: fit-content;
+    border: 2px solid white;
+    border-radius: 40px;
+    background-color: rgb(179, 12, 29);
+    margin: auto 50px auto 20px;
+}
+
+.club-up p{
+    font-size: 14px;
+    font-weight: 800;
+    margin: auto;
+}
+
+/*language switch button*/
+.lang-switch{
+    margin: auto 20px;
+    font-size: 12px;
+    font-weight: 800;
+}
+.lang-switch a:hover{
+
+}
+.ukr-btn{
+    margin: auto 5px;
+    color: rgba(255,255,255,0.7);
+}
+
+.rus-btn{
+    margin: auto 5px;
+}
+
