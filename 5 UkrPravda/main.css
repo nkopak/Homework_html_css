@@ -18,20 +18,18 @@ nav a:hover{
     color: rgb(144, 0, 34);
 }
 
-#red a:hover{
+#red a:hover,
+#red2 a:hover{
     color: rgba(144, 0, 34, 0.7);
 }
 
 .nav-upper,
 .nav-lower{
-    display: flex;
-    justify-content: center;
     padding: 10px 0 8px 0;
 
 }
 
 .nav-item{
-    float: left;
     margin: 0 6px;
     font-size: 11px;
     font-weight: 800;
@@ -43,6 +41,8 @@ nav a:hover{
 
 .nav-upper-list,
 .nav-lower-list {
+    display: flex;
+    justify-content: center;
     list-style: none;
 }
 
@@ -53,7 +53,7 @@ nav a:hover{
     font-size: 14px;
 }
 
-/*--------main header*/
+/*-----main header*/
 .main-header{
     background-color: rgb(126, 0, 25);;
     padding: 12px;
@@ -72,13 +72,20 @@ nav a:hover{
     text-align: center;
 }
 
-
 .line{
     width: 35px;
     height: 4px;
     background-color: white;
     margin: 4px;
 }
+
+.all-pages{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;;
+}
+
+/*-----ukrpravda club button*/
 
 .club-up{
     height: 36px;
@@ -87,15 +94,21 @@ nav a:hover{
     border-radius: 40px;
     background-color: rgb(179, 12, 29);
     margin: auto 50px auto 20px;
+    display: flex;
+    align-items: center;
+}
+
+.club-up:hover{
+    background-color: rgba(179, 12, 29, 0.7);
 }
 
 .club-up p{
-    font-size: 14px;
+    font-size: 11px;
     font-weight: 800;
-    margin: auto;
+    margin: 5px;
 }
 
-/*language switch button*/
+/*-----language switch button*/
 .lang-switch{
     margin: auto 20px;
     font-size: 12px;
